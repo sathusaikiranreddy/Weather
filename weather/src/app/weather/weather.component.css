@@ -1,0 +1,110 @@
+
+.im
+{
+
+ padding: 400px;
+
+  background-image:url(WeatherBackground.png);
+  background-size: cover;
+  
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  
+
+  
+}
+
+.textb {
+padding-left: 10px;
+margin:  20px;
+width :50%;
+height:50px;
+font-size:14px;
+position: absolute;
+left :2px;
+top :50px;
+box-shadow: 10px 10px 5px grey;
+color: blue;
+}
+.buttonb {
+text-align: center;
+margin-left: 0px;
+height: 60px;
+width: 150px;
+border-radius: 15px;
+
+position: absolute;
+left :750px;
+top :70px;
+box-shadow: 0 5px #666;
+}
+.buttonb1 {
+text-align: center;
+margin-left: 40px;
+height: 60px;
+width: 150px;
+border-radius: 15px;
+
+position: absolute;
+left :1000px;
+top :200px;
+box-shadow: 0 5px #666;
+}
+.buttonb2 {
+text-align: center;
+margin-left: 40px;
+height: 60px;
+width: 150px;
+border-radius: 15px;
+
+position: absolute;
+left :1000px;
+top :300px;
+box-shadow: 0 5px #666;
+}
+
+.tableb {
+  border: 0;
+  margin: 20px;
+  border-style: solid;
+  border-color: navy;
+width : 600px;
+height: 50px;
+text-align: center;
+position: absolute;
+left :2px;
+top :250px;
+/*box-shadow: 0 5px #666;*/
+background-color:rgb(223, 130, 195);
+
+}
+.ps {
+  margin: 20px;
+  left :2px;
+  top :350px;
+  position: absolute;
+  background: white;
+  color: rgb(226, 153, 43)
+}
+.tableb1 {
+  border: 0;
+  margin: 20px;
+  border-style: solid;
+  border-color: navy;
+  left :2px;
+  top :400px;
+  text-align: center;
+  position: absolute;
+ /* box-shadow: 0 5px #666;*/
+  background-color: rgb(223, 130, 195);
+  width: 600px;
+  height :50px;
+}
+
+
+
+
+
+.textb:not(:valid) ~ .close-icon {
+	display: none;
+}
