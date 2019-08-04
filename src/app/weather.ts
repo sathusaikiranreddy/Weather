@@ -1,6 +1,6 @@
 export class Weather
 {
   cityName : string;
-  values : Array <Object>;
+  values : Array<Object>;
   searchTime :string;
 }

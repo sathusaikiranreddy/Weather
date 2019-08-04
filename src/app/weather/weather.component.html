@@ -12,17 +12,32 @@
 <button type= "button" name="button" class= "buttonb"(click)="this.getWeather(cityName.value, status)">Search</button>
 
 <div class="currentCity">
-  <table border="1" class="tableb" id="t1">
+  <table border="1" class="tableb" >
+      
+      <th>CITYNAME</th>
+      
+      <th >REPORT OF DAY 1</th>
+      <th>REPORT OF DAY 2</th>
+      <th>REPORT OF DAY 3</th>
+      <th>REPORT OF DAY 4</th>
     <tr *ngIf="this.currentCityWeather !== undefined">
-      <td>{{this.currentCityWeather.cityName}} </td>
+      <td >{{this.currentCityWeather.cityName}} </td>
       <td *ngFor="let v of this.currentCityWeather.values" > {{v}} </td>
       </tr>
+  
         </table>
         </div>
 
 <div class= "pastSearches">
   <p class="ps"> Past Search </p>
   <table border="1" class="tableb1" >
+      <th>CITYNAME</th>
+      <th>TIME
+      </th>
+      <th>REPORT OF DAY 1</th>
+      <th>REPORT OF DAY 2</th>
+      <th>REPORT OF DAY 3</th>
+      <th>REPORT OF DAY 4</th>
 <tr *ngFor="let pastWeather of this.pastSearchValue">
       <td>{{pastWeather.cityName}} </td>
      
