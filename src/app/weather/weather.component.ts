@@ -20,6 +20,8 @@ getWeather(cityName : string ):void{
   this.currentCityWeather.searchTime = (new Date()).toTimeString();
   this.pastSearchValue.push(this.currentCityWeather);
 }
-
+clear() :void{
+    this.pastSearchValue.pop();
+  }
 
 }
